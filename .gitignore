@@ -4,9 +4,9 @@
 *.log
 *.tfvars
 # Ignore Terraform state files specific to modules
-modules/.terraform/
-modules/terraform.tfstate
-modules/terraform.tfstate.backup
+*.modules/.terraform/
+*.modules/terraform.tfstate
+*.modules/terraform.tfstate.backup
 
-.terraformrc
-.terraformrc.json
+*.terraformrc
+*.terraformrc.json
